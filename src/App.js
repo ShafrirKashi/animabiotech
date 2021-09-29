@@ -18,8 +18,7 @@ fetch('http://localhost:8000/users')
 
   return (
     <div className="App">
-       <UserList />
-
+        <UserList />
     </div>
   );
 }
