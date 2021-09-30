@@ -1,0 +1,704 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "full_name": "Noby Downe",
+      "email": "ndowne0@digg.com",
+      "favorite_color": "Maroon",
+      "occupation": "Cost Accountant"
+    },
+    {
+      "id": 2,
+      "full_name": "Aloin Treppas",
+      "email": "atreppas1@soup.io",
+      "favorite_color": "Indigo",
+      "occupation": "Clinical Specialist"
+    },
+    {
+      "id": 3,
+      "full_name": "Maribelle Newlyn",
+      "email": "mnewlyn2@myspace.com",
+      "favorite_color": "Aquamarine",
+      "occupation": "Marketing Assistant"
+    },
+    {
+      "id": 4,
+      "full_name": "Mikkel Larroway",
+      "email": "mlarroway3@washingtonpost.com",
+      "favorite_color": "Puce",
+      "occupation": "Health Coach IV"
+    },
+    {
+      "id": 5,
+      "full_name": "Joceline Braybrooks",
+      "email": "jbraybrooks4@webs.com",
+      "favorite_color": "Aquamarine",
+      "occupation": "Recruiter"
+    },
+    {
+      "id": 6,
+      "full_name": "Laney Murgatroyd",
+      "email": "lmurgatroyd5@state.gov",
+      "favorite_color": "Teal",
+      "occupation": "Accountant I"
+    },
+    {
+      "id": 7,
+      "full_name": "April Casin",
+      "email": "acasin6@google.com.hk",
+      "favorite_color": "Aquamarine",
+      "occupation": "Sales Representative"
+    },
+    {
+      "id": 8,
+      "full_name": "Liesa Paiton",
+      "email": "lpaiton7@howstuffworks.com",
+      "favorite_color": "Orange",
+      "occupation": "Computer Systems Analyst II"
+    },
+    {
+      "id": 9,
+      "full_name": "Moritz Hawlgarth",
+      "email": "mhawlgarth8@phpbb.com",
+      "favorite_color": "Blue",
+      "occupation": "Software Engineer III"
+    },
+    {
+      "id": 10,
+      "full_name": "Hugh Pimblett",
+      "email": "hpimblett9@shop-pro.jp",
+      "favorite_color": "Violet",
+      "occupation": "Assistant Manager"
+    },
+    {
+      "id": 11,
+      "full_name": "Duke Turney",
+      "email": "dturneya@japanpost.jp",
+      "favorite_color": "Aquamarine",
+      "occupation": "Financial Analyst"
+    },
+    {
+      "id": 12,
+      "full_name": "Morgan Ganforthe",
+      "email": "mganfortheb@blogs.com",
+      "favorite_color": "Teal",
+      "occupation": "Mechanical Systems Engineer"
+    },
+    {
+      "id": 13,
+      "full_name": "Dino O'Cridigan",
+      "email": "docridiganc@netlog.com",
+      "favorite_color": "Khaki",
+      "occupation": "Cost Accountant"
+    },
+    {
+      "id": 14,
+      "full_name": "Oralee McTerlagh",
+      "email": "omcterlaghd@alexa.com",
+      "favorite_color": "Indigo",
+      "occupation": "Librarian"
+    },
+    {
+      "id": 15,
+      "full_name": "Lyman Walisiak",
+      "email": "lwalisiake@multiply.com",
+      "favorite_color": "Goldenrod",
+      "occupation": "Senior Financial Analyst"
+    },
+    {
+      "id": 16,
+      "full_name": "Burt Hancill",
+      "email": "bhancillf@fda.gov",
+      "favorite_color": "Teal",
+      "occupation": "Accountant III"
+    },
+    {
+      "id": 17,
+      "full_name": "Reina Arch",
+      "email": "rarchg@ca.gov",
+      "favorite_color": "Purple",
+      "occupation": "Health Coach IV"
+    },
+    {
+      "id": 18,
+      "full_name": "Timothea Hofler",
+      "email": "thoflerh@live.com",
+      "favorite_color": "Teal",
+      "occupation": "Research Assistant II"
+    },
+    {
+      "id": 19,
+      "full_name": "Cathrine Powland",
+      "email": "cpowlandi@toplist.cz",
+      "favorite_color": "Purple",
+      "occupation": "Analyst Programmer"
+    },
+    {
+      "id": 20,
+      "full_name": "Davy Le Surf",
+      "email": "dlej@constantcontact.com",
+      "favorite_color": "Turquoise",
+      "occupation": "Graphic Designer"
+    },
+    {
+      "id": 21,
+      "full_name": "Alane Hewell",
+      "email": "ahewellk@freewebs.com",
+      "favorite_color": "Khaki",
+      "occupation": "Biostatistician IV"
+    },
+    {
+      "id": 22,
+      "full_name": "Richart Laughlan",
+      "email": "rlaughlanl@vk.com",
+      "favorite_color": "Orange",
+      "occupation": "Cost Accountant"
+    },
+    {
+      "id": 23,
+      "full_name": "Charmain Parnham",
+      "email": "cparnhamm@nationalgeographic.com",
+      "favorite_color": "Mauv",
+      "occupation": "Project Manager"
+    },
+    {
+      "id": 24,
+      "full_name": "Sayer Henriksson",
+      "email": "shenrikssonn@e-recht24.de",
+      "favorite_color": "Goldenrod",
+      "occupation": "Developer III"
+    },
+    {
+      "id": 25,
+      "full_name": "Avram Sharrock",
+      "email": "asharrocko@constantcontact.com",
+      "favorite_color": "Goldenrod",
+      "occupation": "Project Manager"
+    },
+    {
+      "id": 26,
+      "full_name": "Bessy Dormer",
+      "email": "bdormerp@wunderground.com",
+      "favorite_color": "Teal",
+      "occupation": "VP Sales"
+    },
+    {
+      "id": 27,
+      "full_name": "Thaine Kippen",
+      "email": "tkippenq@youku.com",
+      "favorite_color": "Fuscia",
+      "occupation": "Media Manager III"
+    },
+    {
+      "id": 28,
+      "full_name": "Afton Cassam",
+      "email": "acassamr@cornell.edu",
+      "favorite_color": "Red",
+      "occupation": "Nurse"
+    },
+    {
+      "id": 29,
+      "full_name": "Gilbert Hartgill",
+      "email": "ghartgills@adobe.com",
+      "favorite_color": "Fuscia",
+      "occupation": "Sales Associate"
+    },
+    {
+      "id": 30,
+      "full_name": "Rachael Furmenger",
+      "email": "rfurmengert@taobao.com",
+      "favorite_color": "Pink",
+      "occupation": "Sales Representative"
+    },
+    {
+      "id": 31,
+      "full_name": "Steffen Christene",
+      "email": "schristeneu@ovh.net",
+      "favorite_color": "Mauv",
+      "occupation": "Software Test Engineer III"
+    },
+    {
+      "id": 32,
+      "full_name": "Giustina Crolla",
+      "email": "gcrollav@upenn.edu",
+      "favorite_color": "Khaki",
+      "occupation": "Nurse Practicioner"
+    },
+    {
+      "id": 33,
+      "full_name": "Issiah Drinkeld",
+      "email": "idrinkeldw@yellowbook.com",
+      "favorite_color": "Aquamarine",
+      "occupation": "Nuclear Power Engineer"
+    },
+    {
+      "id": 34,
+      "full_name": "Denis Cossem",
+      "email": "dcossemx@japanpost.jp",
+      "favorite_color": "Fuscia",
+      "occupation": "Associate Professor"
+    },
+    {
+      "id": 35,
+      "full_name": "Napoleon Lamshead",
+      "email": "nlamsheady@census.gov",
+      "favorite_color": "Puce",
+      "occupation": "Safety Technician III"
+    },
+    {
+      "id": 36,
+      "full_name": "Gaston Gammet",
+      "email": "ggammetz@chronoengine.com",
+      "favorite_color": "Teal",
+      "occupation": "Research Nurse"
+    },
+    {
+      "id": 37,
+      "full_name": "Ninnetta Rubinovici",
+      "email": "nrubinovici10@theguardian.com",
+      "favorite_color": "Crimson",
+      "occupation": "Computer Systems Analyst I"
+    },
+    {
+      "id": 38,
+      "full_name": "Raddy Gooders",
+      "email": "rgooders11@fema.gov",
+      "favorite_color": "Maroon",
+      "occupation": "VP Product Management"
+    },
+    {
+      "id": 39,
+      "full_name": "Galen Curnnok",
+      "email": "gcurnnok12@51.la",
+      "favorite_color": "Violet",
+      "occupation": "Clinical Specialist"
+    },
+    {
+      "id": 40,
+      "full_name": "Mariquilla Ruit",
+      "email": "mruit13@mail.ru",
+      "favorite_color": "Green",
+      "occupation": "Web Designer I"
+    },
+    {
+      "id": 41,
+      "full_name": "Ruthie Gulliford",
+      "email": "rgulliford14@cdc.gov",
+      "favorite_color": "Blue",
+      "occupation": "Recruiter"
+    },
+    {
+      "id": 42,
+      "full_name": "Julee Gilhouley",
+      "email": "jgilhouley15@discuz.net",
+      "favorite_color": "Aquamarine",
+      "occupation": "Pharmacist"
+    },
+    {
+      "id": 43,
+      "full_name": "Novelia Arstingall",
+      "email": "narstingall16@t.co",
+      "favorite_color": "Aquamarine",
+      "occupation": "Account Representative II"
+    },
+    {
+      "id": 44,
+      "full_name": "Olenka Gunther",
+      "email": "ogunther17@fc2.com",
+      "favorite_color": "Fuscia",
+      "occupation": "Payment Adjustment Coordinator"
+    },
+    {
+      "id": 45,
+      "full_name": "Errick Renol",
+      "email": "erenol18@bluehost.com",
+      "favorite_color": "Indigo",
+      "occupation": "Nurse"
+    },
+    {
+      "id": 46,
+      "full_name": "Alan Imlacke",
+      "email": "aimlacke19@umich.edu",
+      "favorite_color": "Khaki",
+      "occupation": "Financial Analyst"
+    },
+    {
+      "id": 47,
+      "full_name": "Ethe Fero",
+      "email": "efero1a@dailymail.co.uk",
+      "favorite_color": "Indigo",
+      "occupation": "Geological Engineer"
+    },
+    {
+      "id": 48,
+      "full_name": "Corty Neeves",
+      "email": "cneeves1b@deviantart.com",
+      "favorite_color": "Violet",
+      "occupation": "Senior Editor"
+    },
+    {
+      "id": 49,
+      "full_name": "Sonya Bruntje",
+      "email": "sbruntje1c@umich.edu",
+      "favorite_color": "Maroon",
+      "occupation": "Staff Scientist"
+    },
+    {
+      "id": 50,
+      "full_name": "Maddy Aldington",
+      "email": "maldington1d@tumblr.com",
+      "favorite_color": "Yellow",
+      "occupation": "Food Chemist"
+    },
+    {
+      "id": 51,
+      "full_name": "Junina Lambkin",
+      "email": "jlambkin1e@infoseek.co.jp",
+      "favorite_color": "Indigo",
+      "occupation": "Senior Quality Engineer"
+    },
+    {
+      "id": 52,
+      "full_name": "Norry Hemphill",
+      "email": "nhemphill1f@xrea.com",
+      "favorite_color": "Indigo",
+      "occupation": "Research Associate"
+    },
+    {
+      "id": 53,
+      "full_name": "Kelcey Hollingshead",
+      "email": "khollingshead1g@yellowbook.com",
+      "favorite_color": "Turquoise",
+      "occupation": "Pharmacist"
+    },
+    {
+      "id": 54,
+      "full_name": "Legra Hansman",
+      "email": "lhansman1h@dailymail.co.uk",
+      "favorite_color": "Blue",
+      "occupation": "Chemical Engineer"
+    },
+    {
+      "id": 55,
+      "full_name": "Meara Hellyer",
+      "email": "mhellyer1i@nba.com",
+      "favorite_color": "Purple",
+      "occupation": "Environmental Tech"
+    },
+    {
+      "id": 56,
+      "full_name": "Tori Fraczek",
+      "email": "tfraczek1j@nba.com",
+      "favorite_color": "Violet",
+      "occupation": "Media Manager II"
+    },
+    {
+      "id": 57,
+      "full_name": "Zachery Bagniuk",
+      "email": "zbagniuk1k@indiatimes.com",
+      "favorite_color": "Red",
+      "occupation": "Director of Sales"
+    },
+    {
+      "id": 58,
+      "full_name": "Nikolos Balshen",
+      "email": "nbalshen1l@comcast.net",
+      "favorite_color": "Teal",
+      "occupation": "Payment Adjustment Coordinator"
+    },
+    {
+      "id": 59,
+      "full_name": "Domini Hasnip",
+      "email": "dhasnip1m@123-reg.co.uk",
+      "favorite_color": "Violet",
+      "occupation": "Environmental Tech"
+    },
+    {
+      "id": 60,
+      "full_name": "Carolus Broadist",
+      "email": "cbroadist1n@networkadvertising.org",
+      "favorite_color": "Violet",
+      "occupation": "Help Desk Technician"
+    },
+    {
+      "id": 61,
+      "full_name": "Minette Yelding",
+      "email": "myelding1o@eepurl.com",
+      "favorite_color": "Khaki",
+      "occupation": "VP Quality Control"
+    },
+    {
+      "id": 62,
+      "full_name": "Camel Dunne",
+      "email": "cdunne1p@trellian.com",
+      "favorite_color": "Khaki",
+      "occupation": "Sales Representative"
+    },
+    {
+      "id": 63,
+      "full_name": "Clea Attac",
+      "email": "cattac1q@cdc.gov",
+      "favorite_color": "Red",
+      "occupation": "Geological Engineer"
+    },
+    {
+      "id": 64,
+      "full_name": "Gunther Shenfish",
+      "email": "gshenfish1r@friendfeed.com",
+      "favorite_color": "Teal",
+      "occupation": "Graphic Designer"
+    },
+    {
+      "id": 65,
+      "full_name": "Danna Tranter",
+      "email": "dtranter1s@sitemeter.com",
+      "favorite_color": "Orange",
+      "occupation": "Editor"
+    },
+    {
+      "id": 66,
+      "full_name": "Cleavland Gohn",
+      "email": "cgohn1t@nydailynews.com",
+      "favorite_color": "Green",
+      "occupation": "Sales Representative"
+    },
+    {
+      "id": 67,
+      "full_name": "Tymothy Kienlein",
+      "email": "tkienlein1u@oakley.com",
+      "favorite_color": "Teal",
+      "occupation": "VP Marketing"
+    },
+    {
+      "id": 68,
+      "full_name": "Cooper Blackwell",
+      "email": "cblackwell1v@amazon.co.uk",
+      "favorite_color": "Violet",
+      "occupation": "Account Representative I"
+    },
+    {
+      "id": 69,
+      "full_name": "Cherin Mairs",
+      "email": "cmairs1w@bluehost.com",
+      "favorite_color": "Maroon",
+      "occupation": "Accounting Assistant III"
+    },
+    {
+      "id": 70,
+      "full_name": "Hannah Blatchford",
+      "email": "hblatchford1x@webeden.co.uk",
+      "favorite_color": "Aquamarine",
+      "occupation": "Chief Design Engineer"
+    },
+    {
+      "id": 71,
+      "full_name": "Tabby Duffil",
+      "email": "tduffil1y@typepad.com",
+      "favorite_color": "Yellow",
+      "occupation": "Environmental Specialist"
+    },
+    {
+      "id": 72,
+      "full_name": "Yettie Micklewright",
+      "email": "ymicklewright1z@patch.com",
+      "favorite_color": "Yellow",
+      "occupation": "Recruiting Manager"
+    },
+    {
+      "id": 73,
+      "full_name": "Eimile Rouzet",
+      "email": "erouzet20@cyberchimps.com",
+      "favorite_color": "Aquamarine",
+      "occupation": "Product Engineer"
+    },
+    {
+      "id": 74,
+      "full_name": "Syman Husbands",
+      "email": "shusbands21@google.nl",
+      "favorite_color": "Purple",
+      "occupation": "Editor"
+    },
+    {
+      "id": 75,
+      "full_name": "Willa Caddy",
+      "email": "wcaddy22@last.fm",
+      "favorite_color": "Khaki",
+      "occupation": "Registered Nurse"
+    },
+    {
+      "id": 76,
+      "full_name": "Ingrid Tween",
+      "email": "itween23@tumblr.com",
+      "favorite_color": "Pink",
+      "occupation": "Sales Associate"
+    },
+    {
+      "id": 77,
+      "full_name": "Ad Peddar",
+      "email": "apeddar24@i2i.jp",
+      "favorite_color": "Indigo",
+      "occupation": "Research Associate"
+    },
+    {
+      "id": 78,
+      "full_name": "Morris Rouge",
+      "email": "mrouge25@phoca.cz",
+      "favorite_color": "Pink",
+      "occupation": "Geologist III"
+    },
+    {
+      "id": 79,
+      "full_name": "Dieter Penwarden",
+      "email": "dpenwarden26@ed.gov",
+      "favorite_color": "Turquoise",
+      "occupation": "Nuclear Power Engineer"
+    },
+    {
+      "id": 80,
+      "full_name": "Ida Tuffs",
+      "email": "ituffs27@jimdo.com",
+      "favorite_color": "Puce",
+      "occupation": "Pharmacist"
+    },
+    {
+      "id": 81,
+      "full_name": "Clarine Burnsides",
+      "email": "cburnsides28@umich.edu",
+      "favorite_color": "Fuscia",
+      "occupation": "Geological Engineer"
+    },
+    {
+      "id": 82,
+      "full_name": "Jeromy Hrinchenko",
+      "email": "jhrinchenko29@fc2.com",
+      "favorite_color": "Indigo",
+      "occupation": "Health Coach III"
+    },
+    {
+      "id": 83,
+      "full_name": "Desi Filyukov",
+      "email": "dfilyukov2a@indiegogo.com",
+      "favorite_color": "Aquamarine",
+      "occupation": "Legal Assistant"
+    },
+    {
+      "id": 84,
+      "full_name": "Libbie Gayden",
+      "email": "lgayden2b@berkeley.edu",
+      "favorite_color": "Fuscia",
+      "occupation": "Structural Analysis Engineer"
+    },
+    {
+      "id": 85,
+      "full_name": "Desmond Stoller",
+      "email": "dstoller2c@mtv.com",
+      "favorite_color": "Aquamarine",
+      "occupation": "Civil Engineer"
+    },
+    {
+      "id": 86,
+      "full_name": "Albertina MacLennan",
+      "email": "amaclennan2d@engadget.com",
+      "favorite_color": "Orange",
+      "occupation": "Speech Pathologist"
+    },
+    {
+      "id": 87,
+      "full_name": "Myer Weinmann",
+      "email": "mweinmann2e@abc.net.au",
+      "favorite_color": "Blue",
+      "occupation": "Marketing Assistant"
+    },
+    {
+      "id": 88,
+      "full_name": "Carlina McAlister",
+      "email": "cmcalister2f@huffingtonpost.com",
+      "favorite_color": "Fuscia",
+      "occupation": "Senior Quality Engineer"
+    },
+    {
+      "id": 89,
+      "full_name": "Rosina Bortoluzzi",
+      "email": "rbortoluzzi2g@china.com.cn",
+      "favorite_color": "Blue",
+      "occupation": "Financial Analyst"
+    },
+    {
+      "id": 90,
+      "full_name": "Anneliese Sawrey",
+      "email": "asawrey2h@cnn.com",
+      "favorite_color": "Violet",
+      "occupation": "GIS Technical Architect"
+    },
+    {
+      "id": 91,
+      "full_name": "Jenni Roblin",
+      "email": "jroblin2i@mlb.com",
+      "favorite_color": "Indigo",
+      "occupation": "Electrical Engineer"
+    },
+    {
+      "id": 92,
+      "full_name": "Charis Staynes",
+      "email": "cstaynes2j@bigcartel.com",
+      "favorite_color": "Puce",
+      "occupation": "Automation Specialist IV"
+    },
+    {
+      "id": 93,
+      "full_name": "Terrell Ritchie",
+      "email": "tritchie2k@redcross.org",
+      "favorite_color": "Violet",
+      "occupation": "Account Executive"
+    },
+    {
+      "id": 94,
+      "full_name": "Janifer Prator",
+      "email": "jprator2l@g.co",
+      "favorite_color": "Orange",
+      "occupation": "Marketing Manager"
+    },
+    {
+      "id": 95,
+      "full_name": "Trevar Olivet",
+      "email": "tolivet2m@sakura.ne.jp",
+      "favorite_color": "Blue",
+      "occupation": "Business Systems Development Analyst"
+    },
+    {
+      "id": 96,
+      "full_name": "Geraldine Chetter",
+      "email": "gchetter2n@techcrunch.com",
+      "favorite_color": "Puce",
+      "occupation": "Design Engineer"
+    },
+    {
+      "id": 97,
+      "full_name": "Theresita Gibbs",
+      "email": "tgibbs2o@cdc.gov",
+      "favorite_color": "Orange",
+      "occupation": "Electrical Engineer"
+    },
+    {
+      "id": 98,
+      "full_name": "Flora Highman",
+      "email": "fhighman2p@gnu.org",
+      "favorite_color": "Goldenrod",
+      "occupation": "Dental Hygienist"
+    },
+    {
+      "id": 99,
+      "full_name": "Austine Clowney",
+      "email": "aclowney2q@cloudflare.com",
+      "favorite_color": "Yellow",
+      "occupation": "Community Outreach Specialist"
+    },
+    {
+      "id": 100,
+      "full_name": "Lorraine Carding",
+      "email": "lcarding2r@cnbc.com",
+      "favorite_color": "Aquamarine",
+      "occupation": "Financial Advisor"
+    }
+  ]
+}

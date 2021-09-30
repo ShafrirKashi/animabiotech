@@ -1,9 +1,12 @@
-import { createStore } from "redux";
+// import { createStore } from "redux";
 
-const Reducer = (state, action) => {};
+// const Reducer = (state = "", action) => {
 
-const store = createStore({
-    reducer: {
+// };
 
-    }
-})
+// const store = createStore({
+//     reducer: {
+
+//     }
+// })
+// export default store
