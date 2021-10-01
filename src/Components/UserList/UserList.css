@@ -1,8 +1,9 @@
 .Main{
     position: relative;
+    background-color: blue;
     top: 4rem;
     width: 70%;
-    height: 50rem;
+    height: 51rem;
  background-color: rgb(248, 248, 248);
  border-radius: 0.7rem;
 }
