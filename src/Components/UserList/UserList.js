@@ -1,66 +1,59 @@
 import React, { useState, useEffect } from 'react'
 import './UserList.css'
-import axios from 'axios'
+// import axios from 'axios'
 import User from '../User/User'
-
+import ReactPaginate from 'react-paginate'
+ 
 
 function UserList (props){
 
     const [users, setUsers] = useState([])
+    const [pageNumber, setpageNumber] = useState(0)
+    const usersPerPage = 9
+    const pagesVisited = pageNumber * usersPerPage
+    const displayUsers = users.slice(pagesVisited, pagesVisited + usersPerPage).map((user) =>{
+        return (
+        <User
+        avatar={<img src={user.avatar} alt="" width="50" height="50" style={{borderRadius: '0.5rem'}}></img>}
+        full_name={user.full_name}
+        email={user.email}
+        >
+       </User>
+
+      )
+    })
+    
+    
+
+    const changePage = ({selected}) => {
+        setpageNumber(selected)
+    }
 
   useEffect(() => {
-      axios.get("http://localhost:8000/users").then((response) => {
-            setUsers(response.data);})}, [])
+      async function getData() {
+      let response = await fetch("http://localhost:8000/users")
+      response = await response.json()
+      setUsers(response)
+        } 
+        getData()
 
-
+}, [])
 
     return (
         <div className="Main">
-           <User
-           full_name={users[0].full_name}
-           email={users[0].email}
-           ></User>
-           <User
-           full_name={users[1].full_name}
-           email={users[1].email}
-           ></User>
-           <User
-           full_name={users[2].full_name}
-           email={users[2].email}
-           ></User>
-           <User
-           full_name={users[3].full_name}
-           email={users[3].email}
-           ></User>
-           <User
-           full_name={users[4].full_name}
-           email={users[4].email}
-           ></User> 
-           <User
-           full_name={users[5].full_name}
-           email={users[5].email}
-           ></User> 
-           <User
-           full_name={users[6].full_name}
-           email={users[6].email}
-           ></User> 
-           <User
-           full_name={users[7].full_name}
-           email={users[7].email}
-           ></User> 
-           <User
-           full_name={users[8].full_name}
-           email={users[8].email}
-           ></User> 
-           <User
-           full_name={users[9].full_name}
-           email={users[9].email}
-           ></User> 
-      
-                       
+           {displayUsers}
+           <ReactPaginate 
+           previousLabel={"Previous"}
+           nextLabel={"Next"}
+           pageCount={6}
+           onPageChange={changePage}
+           containerClassName={"paginationBttns"}
+           previousLinkClassName={"previousBttn"}
+           nextLinkClassName={"nextBttn"}
+           activeClassName={"paginationActive"}
 
-           
-            
+           />
+
         </div>
     )
 }

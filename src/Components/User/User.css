@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     padding-left: 7rem;
+    
 }
 .avatar{
 margin-right: 5rem;
@@ -11,10 +12,16 @@ border-radius: 30rem;
 
 }
 .fullName{
-    font-size: 20px;
-    background-color: blue;
+    font-size: 1.1rem;
+    /* background-color: blue; */
 }
 .email{
-margin-left: 10rem;
-background-color: green;
+    position: absolute;
+margin-left: 22rem;
+font-size: 1.1rem;
+/* background-color: green; */
+}
+.userbox:hover{
+    background-color: rgb(224, 224, 255);
+    cursor: pointer;
 }
