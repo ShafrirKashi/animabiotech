@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import './UserList.css'
-// import axios from 'axios'
 import User from '../User/User'
 import ReactPaginate from 'react-paginate'
- 
+import {Link} from 'react-router-dom'
 
 function UserList (props){
 
@@ -11,19 +10,23 @@ function UserList (props){
     const [pageNumber, setpageNumber] = useState(0)
     const usersPerPage = 9
     const pagesVisited = pageNumber * usersPerPage
+
     const displayUsers = users.slice(pagesVisited, pagesVisited + usersPerPage).map((user) =>{
         return (
+    
+    <div key={user.id}>
+         <Link to={`/users${user.id}`}>
         <User
         avatar={<img src={user.avatar} alt="" width="50" height="50" style={{borderRadius: '0.5rem'}}></img>}
         full_name={user.full_name}
-        email={user.email}
-        >
+        email={user.email}> 
        </User>
-
+    </Link>
+    </div>
       )
     })
-    
-    
+  
+   
 
     const changePage = ({selected}) => {
         setpageNumber(selected)
@@ -36,8 +39,9 @@ function UserList (props){
       setUsers(response)
         } 
         getData()
+        
 
-}, [])
+},[])
 
     return (
         <div className="Main">
@@ -45,14 +49,13 @@ function UserList (props){
            <ReactPaginate 
            previousLabel={"Previous"}
            nextLabel={"Next"}
-           pageCount={6}
+           pageCount={7}
            onPageChange={changePage}
            containerClassName={"paginationBttns"}
            previousLinkClassName={"previousBttn"}
            nextLinkClassName={"nextBttn"}
            activeClassName={"paginationActive"}
-
-           />
+             />
 
         </div>
     )

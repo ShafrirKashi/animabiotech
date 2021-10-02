@@ -1,15 +1,10 @@
 .Main{
     position: relative;
-    background-color: blue;
     top: 4rem;
-    width: 50%;
+    width: 55rem;
     height: 46rem;
- background-color: rgb(248, 248, 248);
- border-radius: 0.7rem;
- /* display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: column; */
+    background-color: rgb(248, 248, 248);
+    border-radius: 0.7rem;
 }
 .paginationBttns{
     width: 80%;
@@ -21,7 +16,7 @@
 .paginationBttns a {
     padding: 10px;
     margin: 8px;
-    border-radius:5px;
+    /* border-radius:5px; */
     border: 1px solid rgb(0, 0, 0);
     color: rgb(0, 0, 0);
     cursor: pointer;
