@@ -6,15 +6,12 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 function App() {
 
-
-
   return (
     <Router>
       <div className="App">
      <Switch> 
         <Route path="/users" exact component={UserList} />
         <Route path="/users/:id" component={UserPage} />
- 
      </Switch> 
       </div>
     </Router>

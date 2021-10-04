@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import './UserList.css'
+import './UserList.sass'
 import User from '../User/User'
 import ReactPaginate from 'react-paginate'
 import {Link} from 'react-router-dom'
@@ -26,8 +26,6 @@ function UserList (props){
       )
     })
   
-   
-
     const changePage = ({selected}) => {
         setpageNumber(selected)
     }
@@ -39,8 +37,6 @@ function UserList (props){
       setUsers(response)
         } 
         getData()
-        
-
 },[])
 
     return (
