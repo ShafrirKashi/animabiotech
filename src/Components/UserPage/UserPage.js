@@ -1,23 +1,22 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from "react-redux";
+import { fetchUsers } from '../../app/Redux/actions';
+
 import './UserPage.sass'
 
+const UserPage = ({match}) => {
+const dispatch = useDispatch()    
+const matchId = match.params.id;
+const users = useSelector(state => state[matchId])
 
+useEffect(() => {
+    dispatch(fetchUsers())
+}, [dispatch])
 
-function UserPage({match}) {
-    useEffect(() => {
-        async function getData() {
-        let matchId = match.params.id;
-        let response = await fetch("http://localhost:8000/users")
-        response = await response.json()
-        setUsers(response[matchId -1])
-          } 
-          getData()
-  },[match])
-
-  const [users, setUsers] = useState({});
-
+console.log(users)
+  
     return (
-   
+  
         <div>
             <div className="box">
                 <h1>{`Full Name: ${users.full_name}`}</h1>
